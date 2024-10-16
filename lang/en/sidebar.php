@@ -16,4 +16,9 @@ return [
         'create' => 'Add User',
     ],
     'error_pages' => 'Error Pages',
+    'site_operations' => [
+        'title' => 'Site İşlemleri',
+        'list' => 'Site Listesi',
+        'create' => 'Site Ekle',
+    ],
 ];

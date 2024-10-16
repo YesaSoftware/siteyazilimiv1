@@ -20,6 +20,11 @@ return [
         'list' => 'Dil Listesi',
         'create' => 'Dil Ekle',
     ],
+    'site_operations' => [
+        'title' => 'Site İşlemleri',
+        'list' => 'Site Listesi',
+        'create' => 'Site Ekle',
+    ],
 
     'system_settings' => [
         'title' => 'Sistem Yönetimi',

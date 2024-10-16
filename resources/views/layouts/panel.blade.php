@@ -235,6 +235,9 @@
 
                     <x-menu-item link="{{route('panel.home')}}" icon="fas fa-home" title="{{ __('sidebar.home') }}"/>
 
+                    <x-menu-item icon="fas fa-earth-america" title="{{__('sidebar.site_operations.title')}}" :items="[
+                                    ['route'=>'panel.languages.list', 'title' => 'sidebar.language_operations.list'],
+                    ]"/>
 
                     <x-menu-item icon="fa fa-user-shield" title="sidebar.role_operations.title" :items="[
                                     ['route'=>'panel.roles.list', 'title' => 'sidebar.role_operations.list']]"/>
